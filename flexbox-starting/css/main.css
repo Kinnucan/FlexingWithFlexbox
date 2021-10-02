@@ -25,6 +25,30 @@ img {
   margin: auto;
 }
 
+nav {
+  /* padding: 1%; */
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar__item--active {
+  border-bottom: 6px solid #140858;
+  /* text-decoration: underline #140858; */
+}
+
 /**
 * Variables
 */
@@ -52,4 +76,16 @@ body {
     rgba(255, 0, 108, 1) 100%
   );
   min-height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_contents {
+  display: flex;
+  justify-content: center;
+}
+
+div > p {
+  font-size: 35px;
 }
